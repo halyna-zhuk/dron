@@ -136,7 +136,7 @@
 }
 
 .pay {
-    height: 360px;
+    height: 420px;
     margin: 0 auto;
     padding: 0 94px;
 }
@@ -153,6 +153,7 @@
     display: flex;
     width: 829px;
     margin: 0 auto;
+    font-weight: 600;
 }
 
 .pay__fonds {
@@ -161,6 +162,7 @@
     align-items: start;
     justify-content: space-between;
     margin-right: 24px;
+    font-weight: normal;
 }
 
 .pay__fonds label {
@@ -173,6 +175,7 @@
 
 .pay__fonds *:first-child {
     margin-bottom: 16px;
+    font-weight: 800;
 }
 
 .pay__fonds label:not(:last-of-type) {
